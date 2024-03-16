@@ -1,0 +1,70 @@
+.case-studies {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px;
+}
+
+.case-row {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition between slides */
+    width: 300%; /* Adjust width to accommodate all slides */
+}
+
+.case-column {
+    flex: 0 0 33.33%; /* Each slide takes up 33.33% width */
+}
+
+.case-column.active {
+    flex: 0 0 33.33%; /* Show active slides */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.case-image-container {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 20px;
+    color: white;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.rectangle {
+    width: 100%;
+    height: 10px; /* Adjust the height as needed */
+    background-color: purple; /* Color of the rectangle */
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

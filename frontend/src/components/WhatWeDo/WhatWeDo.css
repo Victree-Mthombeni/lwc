@@ -1,0 +1,60 @@
+.what-we-do {
+    padding: 60px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.rectangle {
+    width: 30px;
+    height: 5px;
+    background-color: #D100C9;
+    margin-right: 5px;
+}
+
+.title h2 {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description h3 {
+    font-size: 3.5em;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    width: calc(25% - 15px);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card h4{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
+
+.card p{
+    font-size: 1.5em;
+}
+
+
+
+.icon img {
+    width: 70px;
+    padding: 0;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,26 @@
+.brands-container {
+    padding: 60px;
+}
+
+.sort-dropdown {
+    margin-bottom: 20px;
+}
+
+.brands-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+}
+
+.brand-wrapper {
+    width: 18%;
+    margin: 0 10px 20px; /* Adjust margins as needed */
+    text-align: center; /* Center the content inside each wrapper */
+}
+
+.brand-image {
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+}
+
