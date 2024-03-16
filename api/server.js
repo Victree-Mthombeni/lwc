@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const PORT = 3001;
 
-app.use(cors()); // Enable CORS for all routes
+app.use(cors());
 
 const uri = "mongodb://localhost:27017/lwc";
 

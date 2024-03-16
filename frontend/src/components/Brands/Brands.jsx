@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './Brands.css'; // Import the CSS file for styling
+import './Brands.css';
 
 const Brands = () => {
     const [images, setImages] = useState([]);
@@ -16,7 +16,7 @@ const Brands = () => {
         try {
             const response = await axios.get('http://localhost:3001/api/images');
             setImages(response.data);
-            setFilteredImages(response.data); // Set initial filtered images
+            setFilteredImages(response.data);
         } catch (error) {
             console.error('Error fetching data:', error);
         }
